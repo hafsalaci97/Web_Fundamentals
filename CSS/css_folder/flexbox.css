@@ -1,0 +1,32 @@
+*{
+    background-color: aquamarine;
+    text-align: center;
+}
+header,main,aside,section,footer, .sections, .section, .logo, .nav-links, .search-bar, .aside{
+    border: 2px solid black;
+}
+.container{
+    max-width: 400px;
+}
+
+.header-class{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sections{
+    width: 50%;
+}
+.section{
+    min-height: 150px;
+    /* flex: 1; */
+}
+.aside{
+    /* flex: 2; */
+    width: 50%;
+}
